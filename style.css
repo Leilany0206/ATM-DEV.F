@@ -1,0 +1,183 @@
+* {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: large;
+    color: #a973ff;
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+body {
+    background-image: url(image.png);
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+}
+
+button {
+    background-color: #c5a2ff;
+    padding: 10px, 15px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-size: 400%;
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: #a973ff;
+}
+
+#logOutBox button {
+    background-color: #904bff !important;
+}
+
+input {
+    background-color:#c6f7ffcd;
+    border: none;
+    margin: 5px;
+    padding: 5px 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.logo {
+    max-width: 60%;
+}
+
+#one {
+    visibility: visible;
+    position: absolute;
+    background-color: #00588889;
+    left:  20%;
+    right: 20%;
+    bottom:20%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#popError {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    background-color: #0b4a8d;
+    left:  10%;
+    right: 10%;
+    bottom:10%;
+    top: 10%;
+    border-radius: 5px;
+}
+
+#errorContent {
+    font-size: x-large;
+}
+
+#two {
+    visibility: hidden;
+    position: absolute;
+    background-color: #00588889;
+    left:  20%;
+    right: 20%;
+    bottom:20%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2 {
+    max-width: 50%;
+    margin: 20px;
+}
+
+
+#rowOne {
+    align-items: center;
+}
+
+#rowTwo {
+    align-items: center;
+}
+
+#balanceBox {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    background-color: #0b4a8d;
+    left:  10%;
+    right: 10%;
+    bottom:10%;
+    top: 10%;
+    border-radius: 5px;
+}
+
+#depositBox {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    background-color: #0b4a8d;
+    left:  10%;
+    right: 10%;
+    bottom:10%;
+    top: 10%;
+    border-radius: 5px;
+}
+
+#withdrawBox {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    background-color: #0b4a8d;
+    left:  10%;
+    right: 10%;
+    bottom:10%;
+    top: 10%;
+    border-radius: 5px;
+}
