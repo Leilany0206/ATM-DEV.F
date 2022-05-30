@@ -124,28 +124,3 @@ function logOut() {
     two.style.visibility = "hidden";
     one.style.visibility = "visible";
 }
-
-
-//  var welcomeText = inputUser.value.toUpperCase();
-//  welcome.innerHTML = welcomeText;  
-
-/*
-    const account = cuentas.find(account => {
-        return account.name.toUpperCase() == inputUser.toUpperCase();
-    });
-    const total = cuentas.find(total => {
-        return total.money.indexOf() == account.name.indexOf();
-    });
-
-    "TU SALDO ACTUAL ES DE " + 
-
-
-const getMoney = (inputUser) => inputUser == inputUser.value;
-const indexMoney = cuentas.findIndex(getMoney);
-    */
-
-// function getMoney(inputUser) {
-// const user = cuentas.find(user => {
-//     return user.name == inputUser.toUpperCase();
-// });
-// return cuentas.indexOf(user); }
