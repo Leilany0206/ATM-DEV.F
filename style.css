@@ -51,7 +51,6 @@ input {
     border: none;
     margin: 5px;
     padding: 5px 15px;
-    max-width: 100%;
 }
 
 input:focus {
@@ -181,4 +180,20 @@ input:focus {
     bottom:10%;
     top: 10%;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    #one {
+        left: 15%;
+        right: 15%;
+        bottom:15%;
+        top: 15%;
+    }
+
+    #two {
+        left: 15%;
+        right: 15%;
+        bottom:15%;
+        top: 15%;
+    }
 }
