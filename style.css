@@ -51,6 +51,7 @@ input {
     border: none;
     margin: 5px;
     padding: 5px 15px;
+    max-width: 85%;
 }
 
 input:focus {
